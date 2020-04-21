@@ -29,6 +29,15 @@ wget http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz
 tar -xvf nyudepthv2.tar.gz && rm -f nyudepthv2.tar.gz
 ```
 
+## Pretrained model
+You can download temporary pretrained model [here](https://www.dropbox.com/s/j9ytivsk7fvyhuq/checkpoint25.h5).
+(※This model does not yet have enough training epochs)
+
+One of the visualized results of this model is following (input & gt & pred).
+<p align="left">
+    <img src='crnt_result.png' width=60%/></a>
+</p>
+
 ## How to run
 ### Training
 You can train DepthCNN with following command.
