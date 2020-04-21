@@ -7,6 +7,7 @@ I used [imagenet pretrained ResNet50 model](https://nnabla.readthedocs.io/en/lat
 ## ToDo
 - [ ] Prepare c++ inference code
 - [ ] Hyperparameter search
+- [ ] Add other dataset (KITTI etc)
 
 ## Environment
 - Ubuntu18.04 (GPU: NVIDIA GeForce GTX 1080) 
@@ -53,3 +54,9 @@ python inference.py \
     --img-width 304 \
     --result-dir "result"
 ```
+
+## References
+- [nnabla(documentation)](https://nnabla.readthedocs.io/en/latest/#)
+- [nnabla-example](https://github.com/sony/nnabla-examples)
+- [SharpNet](https://github.com/MichaelRamamonjisoa/SharpNet)
+- [Sparse-to-dense](https://github.com/fangchangma/sparse-to-dense.pytorch)
